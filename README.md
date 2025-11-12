@@ -9,8 +9,14 @@ My experiments using function calling to connect a Large Language Model (LLM) to
 
 Project in progress...
 
+<br>
+
+## Experiments
+
+
+
 
 <br>
 
 ## Lessons learned
-- Buy the correct OLED. Some OLEDS have a dual color screen. The top 16 pixel rows always display yellow and the rest of the rows display blue. These colors can't be adjusted. Unless you want these dual colors be sure to buy the monochrome display where all pixels display the same colour.
+- Check the screen color scheme when buying the OLED display. Some OLEDS have a dual color screen. The top 16 pixel rows always display yellow and the rest of the rows display blue. These colors can't be adjusted. Unless you want these dual colors be sure to buy the monochrome display where all pixels display the same colour.
