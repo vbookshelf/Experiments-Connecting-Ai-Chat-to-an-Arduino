@@ -12,7 +12,11 @@ Project in progress...
 <br>
 
 ## Experiments
+- Exp1 - Run blink sketch on arduino<br>
+  https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/main/Exp1%20-%20Run%20blink%20sketch%20on%20arduino
 
+- Exp2 - Connect OLED display to ardunio and run simple code<br>
+https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/main/Exp2%20-%20Connect%20OLED%20display%20to%20ardunio%20and%20run%20simple%20code
 
 
 
