@@ -85,6 +85,14 @@ https://www.youtube.com/watch?v=ATROwE9lYHM
 - How to use LM35 temperature sensor with arduino<br>
 https://www.youtube.com/watch?v=4D1jQvWOPrY
 
+- Electricity & electronics - Robotics, learn by building<br>
+(Udemy electronics course)<br>
+https://www.udemy.com/course/analog-electronics-robotics-learn-by-building/
+
+- Digital Electronics: Robotics, learn by building module II<br>
+(Udemy electronics course)<br>
+https://www.udemy.com/course/digital-electronics-robotics-learn-by-building-module-ii/
+
 
 
 
