@@ -54,6 +54,7 @@ https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/
 
 - If everything is wired up correctly but you are not getting any readings - check for loose connections.
 - If the Arduino Nano is not working, try selecting the following from the top menu: Tools -> Processor -> ATmega328P (Old Bootloader)
+- Iterate faster by using Gemini 2.5 Pro to generate both Python code and Arduino code.
 
 <br>
 
