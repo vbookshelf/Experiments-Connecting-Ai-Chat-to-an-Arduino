@@ -1,5 +1,5 @@
 # Experiments Connecting Ai chat to an Arduino
-My experiments learning how to use function calling to connect a Large Language Model (LLM) to an Arduino. The LLM provides a natural language interface and complex decision-making. The Arduino provides a low-cost connection to the physical world - to monitor, detect changes and take actions.
+My experiments learning how to use function calling to connect a Large Language Model (LLM) to an Arduino. The LLM provides a natural language interface and complex decision-making. The Arduino provides a low-cost connection to the physical world.
 
 <br>
 
