@@ -38,7 +38,7 @@ This example code simulates an LLM function call.<br>
 Python code running on a laptop requests temperature and humidity values from an Arduino via serial communication.<br>
 The code running on the Arduino is continupusly reading the DHT22 sensor every two seconds and displaying the values on the OLED screen.<br>
 The code on the Arduino is set up to be non-blocking i.e. the two second delay does not cause the request from the python code to wait - the request from the python code is handled as soon as it's received. The millis() function is used to achieve this.<br>
-
+https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/main/Exp6%20-%20Non-blocking%20Arduino%20code%20example
   
 
 
