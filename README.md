@@ -51,3 +51,6 @@ https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/
 
 ## Lessons learned
 - Check the screen color scheme when buying the OLED display. Some OLEDS have a dual color screen. The top 16 pixel rows always display yellow and the rest of the rows display blue. These colors can't be adjusted. Unless you want these dual colors be sure to buy the monochrome display where all pixels display the same colour.
+
+- If everything is wired up correctly but you are not getting any readings - check for loose connections.
+- If the Arduino Nano is not working, try selecting the following from the top menu: Tools -> Processor -> ATmega328P (Old Bootloader)
