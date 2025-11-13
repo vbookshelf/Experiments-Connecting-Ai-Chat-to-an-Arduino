@@ -21,6 +21,9 @@ https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/
 - Exp3 - DHT22 AM2302 run example sketch and print to serial monitor<br>
 (Connecting DHT22 to Arduino: "+" to Arduino 5V, "-" to Arduino ground, "out" to Arduino pin D2)<br>
   https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/main/Exp3%20-%20DHT22%20AM2302%20run%20example%20sketch%20and%20print%20to%20serial%20monitor
+
+- Exp4 - Display dht22 temp and humidity on oled and serial monitor<br>
+https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/main/Exp4%20-%20Display%20dht22%20temp%20and%20humidity%20on%20oled%20and%20serial%20monitor
   
 
 
