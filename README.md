@@ -26,9 +26,12 @@ https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/
 https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/main/Exp4%20-%20Display%20dht22%20temp%20and%20humidity%20on%20oled%20and%20serial%20monitor
 
 - Exp5 - Example python and Arduino code to request temp and humidity from Arduino<br>
-Python code running on a laptop requests temperature and humidity values from an Arduino.<br>
+This example code simulates an LLM function call.<br>
+Python code running on a laptop requests temperature and humidity values from an Arduino via serial communication.<br>
 The code running on the Arduino gets the temperature and humidity values from the DHT22 sensor and sends them to the python code. The Arduino code also displays the temperature and humidity values on the OLED screen.<br>
-This example code simulates an LLM function call.
+The Arduino code does not read sensor values continuously. It only reads the temperature and humidity values when it gets a request from the python code.<br>
+The python code receives the response and prints the temperature and humidity values to the terminal.<br>
+https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/main/Exp5%20-%20Example%20python%20and%20Arduino%20code%20to%20request%20temp%20and%20humidity%20from%20Arduino
   
 
 
