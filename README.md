@@ -11,6 +11,10 @@ Project in progress...
 
 <br>
 
+
+<img src="https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/blob/main/Exp4%20-%20Display%20dht22%20temp%20and%20humidity%20on%20oled%20and%20serial%20monitor/oled-and-dht22.jpg" alt="Arduino connected to a laptop." height="350">
+<br>
+
 ## Experiments
 - Exp1 - Run blink sketch on arduino<br>
   https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/main/Exp1%20-%20Run%20blink%20sketch%20on%20arduino
