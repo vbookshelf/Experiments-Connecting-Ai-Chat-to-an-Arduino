@@ -1,0 +1,13 @@
+{
+    "tts_enabled": "Off",
+    "tts_lang": "en-us",
+    "tts_voice": "af_heart",
+    "tts_speed": "1",
+    "num_ctx": "8000",
+    "temperature": "0.4",
+    "top_p": "0.95",
+    "max_pages": "15",
+    "pdf_image_res": "1.5",
+    "max_upload_file_size": "20",
+    "model": "qwen3-vl:8b-instruct-q8_0"
+}
