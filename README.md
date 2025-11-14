@@ -52,7 +52,15 @@ Python code running on a laptop sends an instruction to an Arduino to switch the
 The code running on the Arduino is also reading the DHT22 sensor every two seconds and displaying the values on the OLED screen.<br>
 The code on the Arduino is set up to be non-blocking i.e. the two second delay does not cause the request from the python code to wait - the instruction from the python code is handled as soon as it's received. The millis() function is used to achieve this.<br>
   https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/main/Exp7%20-%20Send%20instruction%20from%20python%20code%20to%20Arduino%20to%20switch%20LED%20on%20and%20off
-  
+
+- Exp8 - Implement Arduino function calls in a working chat interface<br>
+Implemented function calls in a working chat interface (myOfflineAi - ChatConsole). Created function calls to switch a light on and off, and to get the temperature and humidity values.<br>
+The user is able to ask the Ai what the teperature is. The user can also ask the Ai to switch a light on and off.<br>
+The code interfaces with the Arduino via serial communication.<br>
+Used the qwen3-vl:8b-instruct-q8_0 model running locally via Ollama. This model supports function calling and it's multi-modal.<br>
+Everything is working.<br>
+The full code for the chat system is included. Take note that this code is experimental.<br>
+https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/main/Exp8%20-%20Implement%20Arduino%20function%20calls%20in%20a%20working%20chat%20interface/myOfflineAi-ChatConsole-v3.x-exp
 
 <br>
 
