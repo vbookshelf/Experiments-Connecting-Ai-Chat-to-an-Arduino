@@ -70,6 +70,8 @@ https://github.com/vbookshelf/Experiments-Connecting-Ai-Chat-to-an-Arduino/tree/
 - If the Arduino Nano is not working, try selecting the following from the top menu: Tools -> Processor -> ATmega328P (Old Bootloader)
 - Learn faster by using Gemini 2.5 Pro as a collaboration partner. Use it to generate both Python code and Arduino code.
 - The  qwen3-vl:8b-instruct-q8_0 model's function calling reliability decreases as the chat history increases. Hallucination (telling lies) also increases. This could be due to quantization and/or the way Ollama has implemented the model.
+- Most Arduino boards (like the Uno, Nano, and Mega) are designed to automatically reset whenever a new serial connection is opened from a computer.
+This feature allows the Arduino IDE to easily upload new code without needing to press the physical reset button. However, in an application, it causes an unintended side effect. If you first ask the LLM to turn on the LED it will be turned on. If you then ask the LLM to get the temperature, it will do it, but when it gets the temperature the LED will be switched off because the board resets. The way to solve this is to physically disable the auto-reset feature on the Arduino. This allows the Python script to open and close connections without restarting the board, preserving the state of the LED. Auto-reset can be disabled by adding a 10uF capacitor between the RESET and GND pins on your Arduino - negative connected to GND and positive connected to RESET. This capacitor will need to be removed before a new skecth is uploaded to the Arduino, and then reinstalled when the upload is completed.
 
 <br>
 
